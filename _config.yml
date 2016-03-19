@@ -1,14 +1,26 @@
-layout_spectrum: 0.1852635
-typography_spectrum: 0.6987761
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.2026763
-  lightness: 0.7611276
   brandStrength: 1
+  rhythmicContrast: 0.3681908
   brandColors:
     - '#2F3142'
     - '#B5C7D8'
     - '#6E88A3'
     - '#FFFFFF'
     - '#005D01'
-  rhythmicContrast: 0.3681908
+  lightness: 0.7611276
+typography_spectrum: 0.4377014
+layout_spectrum: 0.2755102
 name: David Sebastian Buus
